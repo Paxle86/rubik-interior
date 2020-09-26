@@ -1,0 +1,9 @@
+#Layer_1 {
+	max-width: 80px;
+}
+#Layer_2 {
+	position: absolute;
+	max-width: 200px;
+	top: 30px;
+	left: 100px;
+}
