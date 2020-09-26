@@ -1,0 +1,12 @@
+.navbar__list {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.navbar__list li {
+	background-color: #207796;
+	height: 50px;
+}
+.navbar {
+	display: flex;
+}
