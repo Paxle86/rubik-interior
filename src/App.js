@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import Header from './Header';
-import { BrowserRouter, Link } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
+
+import Slider from './Slider';
 
 function App() {
 	return (
 		<BrowserRouter>
 			<div className='app'>
-				<Header />
+				<Slider />
 			</div>
 		</BrowserRouter>
 	);
