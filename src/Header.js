@@ -1,16 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
-import NavBar from './NavBar';
+import TwitterIconTabs from './TwitterIconTabs';
+
 import Logo from './Logo';
 
 const Header = () => {
 	return (
-		<div className='header'>
+		<div>
 			<Link to='/'>
 				<Logo />
 			</Link>
-			<NavBar />
+			<TwitterIconTabs />
 		</div>
 	);
 };
