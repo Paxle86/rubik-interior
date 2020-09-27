@@ -1,15 +1,14 @@
-import React from 'react';
-import './App.css';
+import React, { useState } from 'react';
 import { BrowserRouter } from 'react-router-dom';
-
-import Slider from './Slider';
+import Modal from './components/Modal';
+import Header from './components/Header';
 
 function App() {
+	const [showModal, setShowModal] = useState(true);
 	return (
 		<BrowserRouter>
-			<div className='app'>
-				<Slider />
-			</div>
+			<Header />
+			<Modal showModal={showModal} setShowModal={setShowModal} />
 		</BrowserRouter>
 	);
 }
