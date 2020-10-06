@@ -1,0 +1,51 @@
+export const homeObjOne = {
+	id: 'about',
+	lightBg: false,
+	lightText: true,
+	lightTextDesc: true,
+	topLine: 'Rubik Interior',
+	headLine: 'Công ty sản xuất thi công nội thất hàng đầu',
+	description:
+		'Hàng trăm khách hàng luôn tin tưởng, lựa chọn chúng tôi là nhà cung cấp, thi công nội thất. ',
+	buttonLabel: 'Xem thêm',
+	imgStart: false,
+	img: require('../../images/bedroom.jpg'),
+	alt: 'furniture',
+	dark: true,
+	primary: true,
+	darkText: false,
+}
+export const homeObjTwo = {
+	id: 'works',
+	lightBg: true,
+	lightText: false,
+	lightTextDesc: false,
+	topLine: 'Rubik Interior',
+	headLine: 'Công ty sản xuất thi công nội thất hàng đầu',
+	description:
+		'Hàng trăm khách hàng luôn tin tưởng, lựa chọn chúng tôi là nhà cung cấp, thi công nội thất. ',
+	buttonLabel: 'Xem them',
+	imgStart: true,
+	img: require('../../images/bedroom.jpg'),
+	alt: 'furniture',
+	dark: false,
+	primary: false,
+	darkText: true,
+}
+export const homeObjThree = {
+	id: 'contact',
+	lightBg: true,
+	lightText: false,
+	lightTextDesc: false,
+	topLine: 'Rubik Interior',
+	headLine: 'Công ty sản xuất thi công nội thất hàng đầu',
+	description:
+		'Hàng trăm khách hàng luôn tin tưởng, lựa chọn chúng tôi là nhà cung cấp, thi công nội thất. ',
+	buttonLabel: 'Xem thêm',
+	imgStart: false,
+	img: require('../../images/bedroom.jpg'),
+	alt: 'furniture',
+	dark: false,
+	primary: false,
+	darkText: true,
+}

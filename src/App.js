@@ -1,16 +1,13 @@
-import React, { useState } from 'react';
-import { BrowserRouter } from 'react-router-dom';
-import Modal from './components/Modal';
-import Header from './components/Header';
+import React from 'react'
+import { BrowserRouter } from 'react-router-dom'
+import Home from './pages'
 
 function App() {
-	const [showModal, setShowModal] = useState(true);
 	return (
 		<BrowserRouter>
-			<Header />
-			<Modal showModal={showModal} setShowModal={setShowModal} />
+			<Home />
 		</BrowserRouter>
-	);
+	)
 }
 
-export default App;
+export default App
